@@ -1,0 +1,63 @@
+html{
+    text-align: center;
+    margin: 0;
+}
+
+.top{
+    background-color: #C4DAD2;
+    padding: 100px;
+}
+
+.title{
+    color: #16423C;
+    margin: 50px;
+}
+
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.subhead{
+    color: #6A9C89;
+}
+
+.about-me{
+    margin: 100px 0;
+}
+
+.intro{
+    width: 30%;
+    margin: auto;
+}
+
+.picture img{
+    height: 200px;
+    width: 200px;
+}
+
+.about-me img{
+    width: 15%;
+    height: 15%;
+    padding: 10px;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    gap: 2rem;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #C4DAD2;
+    padding: 10px;
+    color: black;
+    margin-top: 20px;
+}
+
